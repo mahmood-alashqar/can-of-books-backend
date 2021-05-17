@@ -8,7 +8,7 @@ Mohammad Abu Mattar [GitHub](https://github.com/MKAbuMattar/)
 
 Mahmood Al-Ashqar [GitHub](https://github.com/mahmood-alashqar)
 
-**Version**: 1.0.5
+**Version**: 1.0.2
 <!-- (increment the patch/fix version number if you make more commits past your first submission) -->
 
 ***
@@ -16,7 +16,7 @@ Mahmood Al-Ashqar [GitHub](https://github.com/mahmood-alashqar)
 ## Overview
 <!-- Provide a high level overview of what this application is and why you are building it, beyond the fact that it's an assignment for this class. (i.e. What's your problem domain?) -->
 
-Design website, I will sell books that have inspired me or my favorite books. The problem The visitor must be logged in to access the site's properties.
+the server-side design to handle the data from each user like user email, favorites books...
 
 ## Getting Started
 <!-- What are the steps that a user must take in order to build this app on their own machine and get it running? -->
@@ -24,9 +24,9 @@ Design website, I will sell books that have inspired me or my favorite books. Th
 Follow these steps to install this app:
 
 ```bash
-git clone https://github.com/MKAbuMattar/can-of-books-frontend.git
+git clone https://github.com/mahmood-alashqar/can-of-books-backend.git
 
-cd can-of-books-frontend
+cd can-of-books-backend
 
 # for instal all package
 npm i
@@ -39,28 +39,33 @@ npm start
 
 Languages
 ```
-JavaScript (ReactJS)
-CSS
+JavaScript (express)
 ```
 
 Package
 
-1. auth0 / [npm link](https://www.npmjs.com/package/@auth0/auth0-react)
+1. cors / [npm link](https://www.npmjs.com/package/cors)
 
 ```bash
-npm i --save @auth0/auth0-react
+npm i --save cors
 ```
 
-2. Rreact BootStrap / [npm link](https://www.npmjs.com/package/react-bootstrap)
+2. dotenv / [npm link](https://www.npmjs.com/package/dotenv)
 
 ```bash
-npm i --save react-bootstrap bootstrap
+npm i --save dotenv
 ```
 
-3. Eeact Router DOM / [npm link](https://www.npmjs.com/package/react-router-dom)
+3. express / [npm link](https://www.npmjs.com/package/express)
 
 ```bash
-npm i --save react-router-dom
+npm i --save express
+```
+
+4. mongoose / [npm link](https://www.npmjs.com/package/mongoose)
+
+```bash
+npm i --save mongoose
 ```
 
 ## Change Log
@@ -68,33 +73,37 @@ npm i --save react-router-dom
 
 01-01-2001 4:59pm - Application now has a fully-functional express server, with a GET route for the location resource. -->
 
-this app has a quick and fast connection to the auth0 for authorization and authentication, 4ms forget data, and your components for broke large component to simplify the code
-
+try to not call a function as its but reference to it for easier to handle.
 
 ## Credit and Collaborations
 <!-- Give credit (and a link) to other people or resources that helped you build this application. -->
+
+Collaborations with Mohammad Abu Mattar [GitHub](https://github.com/MKAbuMattar/)
 
 Collaborations with Mahmood Al-Ashqar [GitHub](https://github.com/mahmood-alashqar)
 
 ***
 
+lab work 12
 ## Time Estimates
 
-Name of feature: login and logout using `Auth0`, if the user try to open any page not allow to open using URL it'll redirect to 404 page.
+Name of feature: 
 
-Estimate of time needed to complete: 3h
+Estimate of time needed to complete: 1:30h
 
-Start time: 2:20 PM
+Start time: 3:42 PM
 
-Finish time: 5:15 PM
+Finish time: 4:40 PM
 
-Actual time needed to complete: ~3h
+Actual time needed to complete: ~1h
 
 ***
 
 A link to the deployed version of your latest code.
 
-https://can-of-books-frontend.netlify.app/
+https://can-of-books-backend.herokuapp.com/
+
+the url it does not work properly we trying to deploy it in heroku
 
 A link to your public Trello board.
 
@@ -110,4 +119,4 @@ nothing
 
 How long you spent working on this assignment.
 
-~3h
+~1h
