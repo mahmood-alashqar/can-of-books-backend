@@ -7,7 +7,8 @@ const recieveNewBooks = (req, res) => {
       email: email,
       book: books,
     })
-    emailData[0].save()
+    emailData[0].save();
+    res.send(emailData[0].books);
   });
 
 }
