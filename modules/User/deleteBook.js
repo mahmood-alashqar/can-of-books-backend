@@ -7,7 +7,7 @@ const deleteBook = (req, res) => {
       return idx !== index;
     });
     emailData[0].books = newBookArray;
-    newBookArray[0].save();
+    emailData[0].save();
   });
 
 
