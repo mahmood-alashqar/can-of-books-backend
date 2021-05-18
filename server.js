@@ -8,6 +8,7 @@ require('dotenv').config();
 //modules
 const handelUser = require('./modules/User/User');
 const recieveNewBooks = require('./modules/User/newBooks');
+const deleteBook = require('./modules/User/deleteBook');
 
 //env
 const PORT = process.env.PORT;
@@ -23,6 +24,7 @@ app.get('/', function (req, res) {
 
 app.get('/books', handelUser);
 app.post('/books', recieveNewBooks);
+app.delete('/books/:indexFromUser', deleteBook);
 
 
 app.listen(PORT);
