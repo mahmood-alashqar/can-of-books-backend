@@ -8,7 +8,7 @@ Mohammad Abu Mattar [GitHub](https://github.com/MKAbuMattar/)
 
 Mahmood Al-Ashqar [GitHub](https://github.com/mahmood-alashqar)
 
-**Version**: 1.0.2
+**Version**: 2.0.0
 <!-- (increment the patch/fix version number if you make more commits past your first submission) -->
 
 ***
@@ -97,6 +97,19 @@ Finish time: 4:40 PM
 
 Actual time needed to complete: ~1h
 
+lab work 13 + lab work 14
+## Time Estimates
+
+Name of feature: add book, delete Book, update Book,
+
+Estimate of time needed to complete: 1:30h
+
+Start time: 4:00 PM
+
+Finish time: 5:30 PM
+
+Actual time needed to complete: ~1:30h
+
 ***
 
 A link to the deployed version of your latest code.
@@ -119,4 +132,4 @@ nothing
 
 How long you spent working on this assignment.
 
-~1h
+~2:30h
